@@ -1,7 +1,18 @@
 aid: goin
 name: Goin
-description: Goin is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Goin is a European consumer fintech platform, backed by Anthemis and based in
+  Barcelona, Spain, that helps more than 700,000 users across Europe grow their
+  money and spend less. The app bundles automated savings (fixed daily, weekly or
+  monthly rules and goal-based portfolios), investing, buying and selling of
+  cryptocurrencies, cashback and rewards at hundreds of online and physical
+  stores, gift cards and coupons, and a browser extension that surfaces discounts
+  while shopping. Bank accounts are connected securely under Europe's PSD2 open
+  banking regulation, and a referral program rewards users for inviting friends.
+  Goin is a business-to-consumer mobile product distributed through the Apple App
+  Store and Google Play; it does not publish a public developer program, API, or
+  documentation surface. This API Evangelist profile tracks Goin as a portfolio
+  lead and captures its public web, help, and legal presence.
 url: https://raw.githubusercontent.com/api-evangelist/goin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,60 @@ x-backed-by:
 - anthemis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/652d25c1e51ee095a85c4093/655b2df4fcfcd23afce2bf59_Frame%20427320154.jpg
 tags:
 - Company
+- Fintech
+- Personal Finance
+- Savings
+- Investing
+- Cryptocurrency
+- Cashback
+- Rewards
+- Open Banking
+- PSD2
+- Consumer App
+- Europe
+- Spain
 apis: []
+common:
+- type: DomainSecurity
+  url: security/goin-domain-security.yml
+- type: Website
+  url: https://www.goin.app/
+- type: Blog
+  url: https://www.goin.app/blog
+- type: Support
+  url: https://faqs.goin.app/
+- type: HelpCenter
+  url: https://faqs.goin.app/
+- type: SignUp
+  url: https://goin.money/download
+- type: TermsOfService
+  url: https://www.goin.app/terms
+- type: PrivacyPolicy
+  url: https://www.goin.app/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
